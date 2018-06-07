@@ -41,7 +41,8 @@
 
 .innerContainer {
     width: 550px;
-    margin-right: 150px;
+    /* margin-right: 150px; */
+    /* margin-left: 150px; */
     margin-left: auto;
     margin-right: auto;
     /* this one is a different way to do it --> margin: 0px auto 0px; */
