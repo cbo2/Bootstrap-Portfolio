@@ -1,0 +1,71 @@
+
+* {
+    /* border: 2px solid black; */
+    color: #777777;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.myName {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.bodyContainer {
+    clear: both;
+    height: 500px;
+    background-image: url("../images/concrete_seamless.png");
+    overflow: auto;
+}
+
+.innerContainer {
+    /* width: 850px; */
+    margin-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+    position: relative;
+    padding-top: 10px;
+    border: 2px solid #dddddd;
+    overflow: auto;
+}
+
+.innerContainer img {
+    position: relative;
+    width: 150px;
+    border-radius: 5%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.innerContainer h2 {
+    margin-left: 10px;
+    color: #4aaaa5;
+}
+
+.innerContainer hr {
+    /* display: block; */
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: inset;
+    border-width: 1px;
+    color: #dddddd;
+}
+
+.footer {
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 10px 0px 0px 0px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #666666;
+    color: white;
+}
