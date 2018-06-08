@@ -94,11 +94,20 @@
 .pic {
     width: 160px;
     /* height: 200px; */
+    /* margin-left: 20px; */
+    margin-left: auto;
+    margin-top: 20px; 
+    float: left;
+    position: relative;
+}
+
+/* .pic {
+    width: 160px;
     margin-left: 40px;
     margin-top: 20px;
     float: left;
     position: relative;
-}
+} */
 
 .pic img {
     width: 160px;
@@ -107,7 +116,7 @@
     border-radius: 0px;
 }
 
-.pic p {
+.row p {
     position: absolute;
     bottom: 0px;
     width: 160px;
